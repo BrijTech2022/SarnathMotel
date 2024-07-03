@@ -1,0 +1,76 @@
+/*
+===========================================================================
+ EXCLUSIVE ON themeforest.net
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ Template Name   : Oceanview - Hotel HTML Template
+ Author          : bootWeb
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ Copyright (c) 2017 - bootWeb - https://themeforest.net/user/bootweb
+===========================================================================
+*/
+
+/*================================================
+            Table of contents  
+==================================================
+ 
+1. Layout greater than 768px
+2. Layout lesser than 768px
+3. Subscribe Form
+4. Home Controls Hide
+
+====================================================
+            End table content 
+===================================================*/
+
+/* Layout greater than 768px */
+@media(min-width:768px) {
+    .custom-navbar {
+        border-bottom: 0;
+        padding: 10px 0px;
+    }
+    .custom-navbar .nav li a {
+        margin: 8px 0px;
+    }
+    #home h1 {
+        font-weight: bold;
+        font-size: 54px;
+    }
+}
+
+/* Layout lesser than 768px */
+@media (max-width:768px){
+    .navbar-collapse {
+        text-align:center;  
+    }
+    .custom-navbar .nav li a {
+        line-height: 20px;
+        overflow: hidden;
+    }
+    .custom-navbar .navbar-brand {
+        position: relative;
+        bottom: 5px;
+    }
+    .sep {
+        height: 1px;
+        width: 100%;
+        background: #bbb;
+    }
+}
+
+/* Subscribe Form */
+@media(max-width: 990px) and (min-width: 480px) {
+    footer .input-group {
+        width: 60%;
+    }
+}
+
+/* Home Controls Hide */
+@media (max-width: 540px) {
+    .owl-carousel .owl-prev,
+    .owl-carousel .owl-next {
+        display: none !important;
+    }
+    #home .table-cell {
+        padding: 0 20px;
+    }
+}
